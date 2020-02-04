@@ -9,6 +9,7 @@ class App extends Component {
     this.props.store.dispatch(addItem());
   }
 
+  
   render() {
     return (
       <div className="App">
